@@ -1,0 +1,120 @@
+.borderColor {
+	background-color: rgb(242,242,242);
+}
+.contentColor {
+	background-color: rgb(201,223,237);
+}
+.headerColor{
+	background-color: rgb(76,131,165);
+}
+.headerBorder{
+	border-bottom-style: solid;
+	border-bottom-width: 15px;
+	border-bottom-color: rgb(9,60,91);
+}
+.sidebar{
+	height: 100%;
+	width: 10%;
+	position: fixed;
+}
+.sidebarBorder{
+	border-right-style: solid;
+	border-right-width: 20px;
+	border-right-color: rgb(76,131,165);
+}
+.contentBorder{
+	border-left-style: solid;
+	border-left-width: 15px;
+	border-left-color: rgb(9,60,91);
+}
+.mainBody{ 
+	margin-left: 10%;
+	padding-top: 15px;
+	padding-left: 20px;
+	width: 90%;
+	height:100%;
+	position: fixed;
+}
+#bannerFont{
+	font-family: "Brush Script MT",cursive;
+	font-weight: bold;
+	font-size: 40px;
+}
+h5{
+	font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
+	font-weight: bold;
+	font-size: 28px;
+	color: white;
+	padding-left: 20px;
+}
+h6{
+	font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
+	font-weight: bold;
+	font-size: 18px;
+	color: white;
+	padding-left: 20px;
+}
+h3{
+	font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
+	font-weight: bold;
+	font-size: 31px;
+}
+.daterange{
+	font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
+	font-style: italic;
+	font-size: 18px;
+}
+.regulartext{
+	font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
+	font-size: 18px;
+
+}
+.listpadd{
+	margin-top: -5px;
+	margin-left: -13px;	
+}
+.headerText{
+	font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
+	font-size: 22px;
+}
+.fadeHeader{
+	background: linear-gradient(to right,rgb(9,60,91),rgb(9,60,91),rgb(201,223,237));
+	width: 350px;
+	margin-left: -20px;
+}
+.box{
+	width: 500px;
+	font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
+	font-size: 17px;
+}
+.bannerBorder{
+	position: relative;
+	border:5px solid white;
+	padding: 10px;
+}
+.bannerBorder:before {
+	content: " ";
+	position: absolute;
+	z-index: 1;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	border: 5px solid rgb(9,60,91);
+}
+.headerbuttonpadding{
+	padding-left: 15px;
+}
+img{
+	width: 100%
+}
+.picdet{
+	margin-left: 545px;
+	margin-top: -230px;
+	width: 350px;
+	height: 420px;
+	
+}
+.picborder{
+	border:5px solid rgb(9,60,91);
+}
